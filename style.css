@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+h1{
+    color: red;
+}
+ul>li{
+    color: blueviolet;
+    font-weight: bold;
+}
+a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+li:nth-child(1){
+    background-color: white
+}
+li::before{
+    content: "🚀";
+}
+a::after{
+            content: "🌌";
+}
+p::first-letter{
+    font-size: 50px;
+    color: darkblue;
+}
